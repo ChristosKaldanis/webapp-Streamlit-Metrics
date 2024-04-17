@@ -16,3 +16,6 @@
 O Καλδάνης Χρήστος ανέλαβε τα εξής: Raw Data, 2D Visualization, Classification Algorithms, Clustering Algorithms, Αναφορά σε LaTeX
 
 O Λύγκουρης Κωνσταντίνος ανέλαβε τα εξής: UML Diagrams, Συγγραφή των Result και Info tabs.
+
+# URL Εφαρμογής
+Για να δοκιμάσετε την εφαρμογής αναζητήστε το url μας: http://192.168.1.3:8501/
