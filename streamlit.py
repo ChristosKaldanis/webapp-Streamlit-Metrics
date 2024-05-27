@@ -45,14 +45,14 @@ def load_data(file):
 
 
 def Visualization(df):
-    # Διάταξη στηλών με βάση το όνομα των στηλών
+   
     # Handle non-numeric data
     non_numeric_columns = df.select_dtypes(include=['object']).columns
     for column in non_numeric_columns:
         le = LabelEncoder()
         df[column] = le.fit_transform(df[column])
 
-    # Handle missing values with mean imputation
+   
     
     # Handle missing values with mean imputation
     imputer = SimpleImputer(strategy='mean')
