@@ -1,21 +1,21 @@
 # webapp-Streamlit Metrics
 # Info
 
-# Περιγραφή Εφαρμογής
-Η εφαρμογής μας Streamlit Metrics βοηθά στην οπτικοποίηση, ανάλυση, ταξινόμηση και συσταδοποίηση των δεδομένων από csv ή xlsx αρχεία dataset.
+# Application Description
+Our application Streamlit Metrics helps in visualizing, analyzing, classifying, and clustering data from CSV or XLSX dataset files.
 
-# Λειτουργικότητα της Εφαρμογής
-Αρχικά, εισάγουμε το αρχείο (xlsx ή csv) το οποίο περιέχει το dataset με το button Βrowse Files. Ύστερα, εμφανίζεται στo tab Raw Data το dataset με τη μορφή πίνακα και επιπλέον από κάτω ενα προεπιλεγμένο διαγραμμα που μορφοποιείται ανάλογα με τη μορφή του κώδικα το οποίο υλοποιήθηκε για το συγκεκριμένο dataset (WorldBank) που έχει αναλυθεί. Προχωράμε στο tab 2D Visualization όπου οπτικοποιόυνται χαρακτηριστικά που επιλέγονται από τον χρήστη ανάλογα και με τον reduction αλγόριθμο που έχει επιλεχθεί. Στο επόμενο tab που αφορά τους αλγορίθμους ταξινόμησης επιλέγεται ο αλγόριθμος που ενδιαφέρει τον χρήστη, τα χαρακτηριστικά που επιθυμεί να αναλύσει, ο reduction αλγόριθμος για την καλύτερη κατανομή των χαρακτηριστικών καθώς και η παράμετρος του αλγόριθμου ταξινόμησης (εάν χρειάζεται). Στη συνέχεια υπάρχει το tab με τους clustering αλγόριθμους όπου πάλι ο χρήστης ακολουθεί την ίδια λειτουργική διαδικασία που ακολούθησε και στο classification tab, ώστε να γίνει η συσταδοποίηση σύμφωνα με τα labels του dataset. Τέλος στα επόμενα δύο tabs ο χρήστης μπορεί να διαβάσει πληροφορίες σχετικά με την εφαρμογή την ομάδα της και τη λειτουργικότητα της. Εάν όλα καταχωρηθούν σωστά εμφανίζεται μήνυμα επιτυχίας Done! αλλιώς μήνυμα σφάλματος.
+# Application Functionality
+First, we upload the file (XLSX or CSV) which contains the dataset using the Browse Files button. Then, in the Raw Data tab, the dataset is displayed in table form, along with a pre-configured chart that is formatted according to the specific dataset (WorldBank) that has been analyzed. We move on to the 2D Visualization tab where features selected by the user are visualized based on the chosen reduction algorithm. In the next tab, which concerns classification algorithms, the user selects the algorithm of interest, the features they wish to analyze, the reduction algorithm for better feature distribution, and any necessary parameters for the classification algorithm. Next, there is a tab for clustering algorithms where the user follows the same functional procedure as in the classification tab, so that clustering is performed according to the dataset labels. Finally, in the last two tabs, the user can read information about the application, the team behind it, and its functionality. If everything is entered correctly, a success message "Done!" is displayed; otherwise, an error message is shown.
 
-# Ομάδα Ανάπτυξης
-Η ομάδα ανάπτυξης της εφαρμογής αποτελείται απο δύο ατομα, τον Καλδάνη Χρήστο προπτυχιακό φοιτητή στο τμήμα Πληροφορικής του Ιονίου Πανεπιστημίου και υπεύθυνο υλοποίησης της εφαρμογής και από τον Κωνσταντίνο Λύγκουρη που είναι επίσης προπτυχιακός φοιτητής στο τμήμα Πληροφορικής του Ιονίου Πανεπιστημίου.
+# Development Team
+The development team consists of two members: Christos Kaldanis, an undergraduate student at the Department of Informatics, Ionian University, who is responsible for implementing the application, and Konstantinos Lygouris, who is also an undergraduate student at the Department of Informatics, Ionian University.
 
 # Tasks
-Τα Tasks που υλοποιήθηκαν από κάθε μέλος είναι:
+The tasks implemented by each member are:
 
-O Καλδάνης Χρήστος ανέλαβε τα εξής: Raw Data, 2D Visualization, Classification Algorithms, Clustering Algorithms, Docker, Github, Αναφορά σε LaTeX
+Christos Kaldanis was responsible for: Raw Data, 2D Visualization, Classification Algorithms, Clustering Algorithms, Docker, GitHub, LaTeX Report.
 
-O Λύγκουρης Κωνσταντίνος ανέλαβε τα εξής: UML Diagrams, Κύκλος Ζωής Έκδοσης Λογισμικού, Συγγραφή των Result και Info tabs.
+Konstantinos Lygouris was responsible for: UML Diagrams, Software Release Life Cycle, Writing the Results and Info tabs.
 
-# URL Εφαρμογής
-Για να δοκιμάσετε την εφαρμογή μας, **έπειτα από αίτημα του χρήστη προς τον υπεύθυνο της εφαρμογής Καλδάνη Χρήστο**, θα ενεργοποιηθεί το παρακάτω URL για deploy: http://192.168.1.3:8501/
+# Application URL
+To try out our application, **after requesting access from the application manager Christos Kaldanis**, the following URL will be activated for deployment: http://192.168.1.3:8501/
